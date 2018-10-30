@@ -20,21 +20,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a797d75-78f3-4229-9ac1-95602956386f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/CMakeLists.txt.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/googletest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/logger_test/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/logger_test/LogTest.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitmodules" beforeDir="false" afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/cppfs/cppfs-version.h" beforeDir="false" afterPath="$PROJECT_DIR$/inc/cppfs/cppfs-version.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/cppfs/cppfs_api.h" beforeDir="false" afterPath="$PROJECT_DIR$/inc/cppfs/cppfs_api.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/googletest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Log.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Log.h" afterDir="false" />
-    </list>
+    <list default="true" id="8a797d75-78f3-4229-9ac1-95602956386f" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/cmake-build-release/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -95,7 +81,7 @@
       </usages-collector>
       <usages-collector id="statistics.cidr.testingFrameworks.usages">
         <counts>
-          <entry key="Google Test" value="2" />
+          <entry key="Google Test" value="4" />
         </counts>
       </usages-collector>
     </session>
@@ -114,8 +100,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/logger_test/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="64" selection-start-line="19" selection-start-column="64" selection-end-line="19" selection-end-column="64" />
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -223,12 +209,6 @@
               <item name="com.icy3d.logger" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="com.icy3d.logger" type="b2602c69:ProjectViewProjectNode" />
-              <item name="com.icy3d.logger" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="logger_test" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -320,7 +300,7 @@
       <option name="presentableId" value="Default" />
       <updated>1540896575260</updated>
       <workItem from="1540896576427" duration="13840000" />
-      <workItem from="1540911341392" duration="4112000" />
+      <workItem from="1540911341392" duration="4371000" />
     </task>
     <task id="LOCAL-00001" summary="compiling, but not tested">
       <created>1540901790928</created>
@@ -346,27 +326,32 @@
     <history-entry file="LogTest - 2018.10.30 at 16h 45m 17s.xml">
       <configuration name="LogTest" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
+    <history-entry file="LogTest - 2018.10.30 at 17h 05m 28s.xml">
+      <configuration name="LogTest" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="LogTest - 2018.10.30 at 17h 05m 37s.xml">
+      <configuration name="LogTest" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17952000" />
+    <option name="totallyTimeSpent" value="18211000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1050" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32969433" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.39082968" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.39082968" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection Results" order="8" weight="0.32969433" />
-      <window_info active="true" anchor="bottom" id="Messages" order="9" sideWeight="0.79317695" visible="true" weight="0.5327511" />
+      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.79317695" weight="0.5327511" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.40778252" side_tool="true" weight="0.50545853" />
       <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
@@ -551,8 +536,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/logger_test/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="64" selection-start-line="19" selection-start-column="64" selection-end-line="19" selection-end-column="64" />
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
