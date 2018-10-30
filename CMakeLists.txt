@@ -5,7 +5,7 @@ set(CMAKE_INSTALL_PREFIX "${CMAKE_BINARY_DIR}/install")
 
 include_directories(inc)
 link_directories(lib/cppfs)
-set(LIBS optimized cppfs debug cppfsd)
+set(ICY_LOGGER_LIBS optimized cppfs debug cppfsd)
 
 # force static runtime libraries for msvc builds
 if(MSVC)
@@ -22,7 +22,7 @@ endif()
 
 add_subdirectory(src)
 add_library(${PROJECT_NAME} STATIC ${SOURCES})
-target_link_libraries(${PROJECT_NAME} ${LIBS})
+target_link_libraries(${PROJECT_NAME} ${ICY_LOGGER_LIBS})
 
 add_subdirectory(test)
 
