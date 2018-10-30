@@ -3,13 +3,18 @@
 //
 
 
-#include "Log4netFormatter.h"
+#include "Formatter.h"
 #include <sstream>
 #include <iomanip>
 
+using namespace icy3d;
+using namespace std;
 using namespace std::chrono;
+using namespace spdlog;
+using namespace spdlog::details;
 
-Log4netFormatter::Log4netFormatter() {
+Formatter::Formatter() {
+    
     // attention don't use Level_enum values as key as this hashes the values different from int
     // https://stackoverflow.com/questions/18837857/cant-use-enum-class-as-unordered-map-key
 
@@ -34,7 +39,7 @@ Log4netFormatter::Log4netFormatter() {
     _levelMap[6] = "OFF";
 }
 
-void Log4netFormatter::format(const details::log_msg &msg, fmt::memory_buffer &dest) {
+void Formatter::format(const details::log_msg &msg, fmt::memory_buffer &dest) {
     int l = msg.level;
     const char *strLevel = _levelMap.at(l);
 
@@ -51,11 +56,11 @@ void Log4netFormatter::format(const details::log_msg &msg, fmt::memory_buffer &d
     fmt_helper::append_c_str("\n", dest);
 }
 
-std::unique_ptr<formatter> Log4netFormatter::clone() const {
+std::unique_ptr<formatter> Formatter::clone() const {
     return unique_ptr<formatter>();
 }
 
-string Log4netFormatter::timePointToString(log_clock::time_point tp) {
+string Formatter::timePointToString(log_clock::time_point tp) {
 
     // better use
     // https://stackoverflow.com/questions/48217017/what-is-the-prettiest-way-to-convert-time-point-to-string
@@ -70,7 +75,7 @@ string Log4netFormatter::timePointToString(log_clock::time_point tp) {
     auto fractional_seconds = static_cast<size_t>(ms.count() % 1000);
 
     stringstream s;
-    s << strDateTime << "." <<  fractional_seconds;
+    s << strDateTime << "." << fractional_seconds;
     string result = s.str();
     return result;
 }
