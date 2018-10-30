@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.4.1)
 project(com.icy3d.logger CXX)
 
-set(CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}/install")
+set(CMAKE_INSTALL_PREFIX "${CMAKE_BINARY_DIR}/install")
 
 include_directories(inc)
 link_directories(lib/cppfs)
