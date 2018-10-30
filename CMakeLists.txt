@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 3.4.1)
 project(com.icy3d.logger CXX)
 
+set(CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}/install")
+
 include_directories(inc)
 link_directories(lib/cppfs)
 set(LIBS optimized cppfs debug cppfsd)
@@ -23,4 +25,6 @@ add_library(${PROJECT_NAME} STATIC ${SOURCES})
 target_link_libraries(${PROJECT_NAME} ${LIBS})
 
 add_subdirectory(test)
+
+install(TARGETS ${PROJECT_NAME} DESTINATION "${CMAKE_INSTALL_PREFIX}")
 
