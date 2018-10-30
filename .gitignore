@@ -1,3 +1,7 @@
+#user defined
+build/*
+cmake-build*/
+
 # Prerequisites
 *.d
 

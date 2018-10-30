@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="com.icy3d.logger" targetName="com.icy3d.logger" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8a797d75-78f3-4229-9ac1-95602956386f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/com.icy3d.logger.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CMakeRCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/count.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/com.icy3d.logger.dir/CXX.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/com.icy3d.logger.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/com.icy3d.logger.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/com.icy3d.logger.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/com.icy3d.logger.dir/cmake_clean_target.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/com.icy3d.logger.dir/com.icy3d.logger.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/com.icy3d.logger.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/com.icy3d.logger.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/com.icy3d.logger.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/com.icy3d.logger.dir/objects1.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/com.icy3d.logger.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Project.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/com.icy3d.logger.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/src/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/src/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/cppfs/AbstractFileHandleBackend.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/cppfs/AbstractFileIteratorBackend.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/cppfs/AbstractFileSystem.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/cppfs/Change.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/cppfs/Diff.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/cppfs/FileHandle.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/cppfs/FileIterator.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/cppfs/FilePath.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/cppfs/FileVisitor.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/cppfs/FunctionalFileVisitor.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/cppfs/InputStream.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/cppfs/LoginCredentials.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/cppfs/OutputStream.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/cppfs/Tree.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/cppfs/Url.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/cppfs/cppfs-version.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/cppfs/cppfs.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/cppfs/cppfs_api.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/cppfs/fs.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/cppfs/posix/LocalFileHandle.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/cppfs/posix/LocalFileIterator.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/cppfs/posix/LocalFileSystem.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/cppfs/ssh/SshFileHandle.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/cppfs/ssh/SshFileIterator.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/cppfs/ssh/SshFileSystem.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/cppfs/ssh/SshInputStreamBuffer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/cppfs/ssh/SshOutputStreamBuffer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/cppfs/system.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/cppfs/units.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/cppfs/windows/LocalFileHandle.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/cppfs/windows/LocalFileIterator.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/cppfs/windows/LocalFileSystem.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/spdlog/async.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/spdlog/async_logger.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/spdlog/common.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/spdlog/details/async_logger_impl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/spdlog/details/circular_q.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/spdlog/details/console_globals.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/spdlog/details/file_helper.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/spdlog/details/fmt_helper.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/spdlog/details/log_msg.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/spdlog/details/logger_impl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/spdlog/details/mpmc_blocking_q.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/spdlog/details/null_mutex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/spdlog/details/os.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/spdlog/details/pattern_formatter.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/spdlog/details/periodic_worker.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/spdlog/details/registry.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/spdlog/details/thread_pool.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/spdlog/fmt/bundled/LICENSE.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/spdlog/fmt/bundled/colors.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/spdlog/fmt/bundled/core.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/spdlog/fmt/bundled/format-inl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/spdlog/fmt/bundled/format.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/spdlog/fmt/bundled/locale.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/spdlog/fmt/bundled/ostream.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/spdlog/fmt/bundled/posix.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/spdlog/fmt/bundled/printf.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/spdlog/fmt/bundled/ranges.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/spdlog/fmt/bundled/time.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/spdlog/fmt/fmt.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/spdlog/fmt/ostr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/spdlog/formatter.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/spdlog/logger.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/spdlog/sinks/android_sink.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/spdlog/sinks/ansicolor_sink.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/spdlog/sinks/base_sink.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/spdlog/sinks/basic_file_sink.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/spdlog/sinks/daily_file_sink.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/spdlog/sinks/dist_sink.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/spdlog/sinks/msvc_sink.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/spdlog/sinks/null_sink.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/spdlog/sinks/ostream_sink.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/spdlog/sinks/rotating_file_sink.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/spdlog/sinks/sink.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/spdlog/sinks/stdout_color_sinks.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/spdlog/sinks/stdout_sinks.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/spdlog/sinks/syslog_sink.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/spdlog/sinks/wincolor_sink.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/spdlog/spdlog.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/spdlog/tweakme.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/spdlog/version.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IcyLog.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IcyLog.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Log4netFormatter.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Log4netFormatter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FUSProjectUsageTrigger">
+    <session id="843538045">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="LICENSE" value="1" />
+          <entry key="cpp" value="1" />
+          <entry key="gitignore" value="1" />
+          <entry key="h" value="4" />
+          <entry key="md" value="1" />
+          <entry key="txt" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CMakeLists.txt" value="3" />
+          <entry key="Markdown" value="1" />
+          <entry key="ObjectiveC" value="5" />
+          <entry key="PLAIN_TEXT" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="gitignore" value="38" />
+          <entry key="h" value="33" />
+          <entry key="txt" value="301" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CMakeLists.txt" value="301" />
+          <entry key="ObjectiveC" value="33" />
+          <entry key="PLAIN_TEXT" value="38" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/IcyLog.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="158">
+              <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+              <folding>
+                <element signature="e#881#899#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Log4netFormatter.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+              <folding>
+                <element signature="e#57#71#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/IcyLog.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="226">
+              <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/src/LogMasterDefs.h" />
+        <option value="$PROJECT_DIR$/src/Log4netFormatter.h" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/src/IcyLog.h" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-24" />
+    <option name="width" value="800" />
+    <option name="height" value="848" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="com.icy3d.logger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.icy3d.logger" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.icy3d.logger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.icy3d.logger" type="462c0819:PsiDirectoryNode" />
+              <item name="inc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.icy3d.logger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.icy3d.logger" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.icy3d.logger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.icy3d.logger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="xpath.settings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.com.icy3d.logger">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.icy3d.logger" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="com.icy3d.logger" TARGET_NAME="com.icy3d.logger" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Build All" />
+      <item itemvalue="Application.com.icy3d.logger" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8a797d75-78f3-4229-9ac1-95602956386f" name="Default Changelist" comment="" />
+      <created>1540896575260</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540896575260</updated>
+      <workItem from="1540896576427" duration="2007000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2007000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1050" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" visible="true" weight="0.32969433" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="CMake" weight="0.45633188" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LogMasterDefs.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Log4netFormatter.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+          <folding>
+            <element signature="e#57#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IcyLog.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+          <folding>
+            <element signature="e#881#899#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IcyLog.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
