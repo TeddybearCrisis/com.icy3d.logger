@@ -9,10 +9,10 @@
 #  ifndef CPPFS_API
 #    ifdef cppfs_EXPORTS
         /* We are building this library */
-#      define CPPFS_API __declspec(dllexport)
+#      define CPPFS_API 
 #    else
         /* We are using this library */
-#      define CPPFS_API __declspec(dllimport)
+#      define CPPFS_API 
 #    endif
 #  endif
 

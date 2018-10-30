@@ -9,7 +9,7 @@
 #define CPPFS_VERSION_MAJOR       "1"
 #define CPPFS_VERSION_MINOR       "2"
 #define CPPFS_VERSION_PATCH       "0"
-#define CPPFS_VERSION_REVISION    "53218a38cd6e"
+#define CPPFS_VERSION_REVISION    "d6cae09737e8"
 
 #define CPPFS_VERSION             "1.2.0"
-#define CPPFS_NAME_VERSION        "cppfs v1.2.0 (53218a38cd6e)"
+#define CPPFS_NAME_VERSION        "cppfs v1.2.0 (d6cae09737e8)"

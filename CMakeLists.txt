@@ -2,9 +2,25 @@ cmake_minimum_required(VERSION 3.4.1)
 project(com.icy3d.logger CXX)
 
 include_directories(inc)
-set(STATIC_LIBS lib/cppfs/cppfs)
+link_directories(lib/cppfs)
+set(LIBS optimized cppfs debug cppfsd)
+
+# force static runtime libraries for msvc builds
+if(MSVC)
+    set(variables
+        CMAKE_CXX_FLAGS_DEBUG
+        CMAKE_CXX_FLAGS_RELEASE
+        )
+    foreach(variable ${variables})
+        if(${variable} MATCHES "/MD")
+            string(REGEX REPLACE "/MD" "/MT" ${variable} "${${variable}}")
+        endif()
+    endforeach()
+endif()
 
 add_subdirectory(src)
-add_library(${PROJECT_NAME} ${SOURCES})
-target_link_libraries(${PROJECT_NAME} STATIC ${STATIC_LIBS})
+add_library(${PROJECT_NAME} STATIC ${SOURCES})
+target_link_libraries(${PROJECT_NAME} ${LIBS})
+
+add_subdirectory(test)
 
