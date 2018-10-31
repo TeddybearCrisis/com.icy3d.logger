@@ -28,6 +28,7 @@ macro(initGitSubmodule PATH VERSION)
         # this condition is a clion hack as debug and release configurations are run simultaniously
         # without this condition clion tries to download it 2 times at the same time causing errors
         string(TOLOWER ${CMAKE_BUILD_TYPE} BUILD_TYPE_LOWER)
+        set(ABSOLUTE_PATH "${PROJECT_SOURCE_DIR}/${PATH}")
         if (BUILD_TYPE_LOWER STREQUAL "debug")
 
             # Update submodules as needed
@@ -36,26 +37,26 @@ macro(initGitSubmodule PATH VERSION)
                 # Update submodules as needed
                 message(STATUS "${PATH} Submodule update")
                 execute_process(COMMAND ${GIT_EXECUTABLE} submodule update --depth 1 --init
-                                WORKING_DIRECTORY ${PATH}
+                                WORKING_DIRECTORY ${ABSOLUTE_PATH}
                                 RESULT_VARIABLE GIT_SUBMOD_RESULT
                                 )
-                    #OUTPUT_QUIET
+                #OUTPUT_QUIET
                 if (NOT GIT_SUBMOD_RESULT EQUAL "0")
-                    message(FATAL_ERROR "git submodule update --init failed with ${GIT_SUBMOD_RESULT},
-                please checkout submodules")
+                    message(FATAL_ERROR "git submodule update --depth 1 --init in ${ABSOLUTE_PATH}
+                    failed with ${GIT_SUBMOD_RESULT}, please checkout submodules")
                 endif ()
 
                 # fetch the specific version
                 message(STATUS "${PATH} checking out version: ${VERSION}")
-                execute_process(COMMAND ${GIT_EXECUTABLE} checkout  ${VERSION}
-                                WORKING_DIRECTORY ${PROJECT_SOURCE_DIR}/${PATH}
+                execute_process(COMMAND ${GIT_EXECUTABLE} checkout ${VERSION}
+                                WORKING_DIRECTORY ${ABSOLUTE_PATH}
                                 RESULT_VARIABLE GIT_SUBMOD_CHECKOUT_RESULT
                                 )
-                    #-q  OUTPUT_QUIET
+                #-q  OUTPUT_QUIET
 
                 if (NOT GIT_SUBMOD_CHECKOUT_RESULT EQUAL "0")
-                    message(FATAL_ERROR "git checkout ${VERSION} in ${PATH} failed with ${GIT_SUBMOD_CHECKOUT_RESULT},
-                please checkout submodules")
+                    message(FATAL_ERROR "git checkout ${VERSION} in ${ABSOLUTE_PATH}
+                    failed with ${GIT_SUBMOD_CHECKOUT_RESULT}, please checkout submodules")
                 endif ()
             endif ()
         else ()
