@@ -23,6 +23,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8a797d75-78f3-4229-9ac1-95602956386f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/cmake-build-release/" />
@@ -66,17 +67,17 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cmake" value="1163" />
+          <entry key="cmake" value="1308" />
           <entry key="cpp" value="961" />
           <entry key="gitignore" value="38" />
           <entry key="h" value="1077" />
           <entry key="md" value="313" />
-          <entry key="txt" value="1875" />
+          <entry key="txt" value="1876" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CMakeLists.txt" value="2670" />
+          <entry key="CMakeLists.txt" value="2816" />
           <entry key="Doxygen file" value="9" />
           <entry key="Markdown" value="313" />
           <entry key="ObjectiveC" value="2029" />
@@ -135,20 +136,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="650">
+              <caret line="40" column="67" selection-start-line="40" selection-start-column="67" selection-end-line="40" selection-end-column="67" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cmake/tools.cmake">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="56" column="89" selection-start-line="56" selection-start-column="89" selection-end-line="56" selection-end-column="89" />
+            <state relative-caret-position="387">
+              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
             </state>
           </provider>
         </entry>
@@ -205,8 +206,8 @@
         <option value="$PROJECT_DIR$/test/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/.gitmodules" />
         <option value="$PROJECT_DIR$/test/logger_test/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/cmake/tools.cmake" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
       </list>
     </option>
   </component>
@@ -355,7 +356,7 @@
       <workItem from="1540933710921" duration="1546000" />
       <workItem from="1540942155336" duration="5627000" />
       <workItem from="1540994514816" duration="2255000" />
-      <workItem from="1540996782765" duration="2086000" />
+      <workItem from="1540996782765" duration="2720000" />
     </task>
     <task id="LOCAL-00001" summary="compiling, but not tested">
       <created>1540901790928</created>
@@ -455,7 +456,21 @@
       <option name="project" value="LOCAL" />
       <updated>1540998866601</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="trying different git checkout command from cmake">
+      <created>1540998969267</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1540998969267</updated>
+    </task>
+    <task id="LOCAL-00016" summary="trying different git checkout command from cmake">
+      <created>1540999520997</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1540999520997</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -491,7 +506,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43368000" />
+    <option name="totallyTimeSpent" value="44002000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1050" extended-state="6" />
@@ -513,7 +528,7 @@
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.28056768" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.40778252" side_tool="true" weight="0.50545853" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32969433" />
-      <window_info active="true" anchor="bottom" id="CMake" order="13" sideWeight="0.5922175" visible="true" weight="0.4279476" />
+      <window_info active="true" anchor="bottom" id="CMake" order="13" sideWeight="0.5922175" visible="true" weight="0.22598253" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -682,13 +697,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/logger_test/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -698,8 +706,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cmake/tools.cmake">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="56" column="89" selection-start-line="56" selection-start-column="89" selection-end-line="56" selection-end-column="89" />
+        <state relative-caret-position="387">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="40" column="67" selection-start-line="40" selection-start-column="67" selection-end-line="40" selection-end-column="67" />
         </state>
       </provider>
     </entry>
