@@ -48,11 +48,15 @@ macro(initGitSubmodule PATH VERSION)
 
                 # fetch the specific version
                 message(STATUS "${PATH} checking out version: ${VERSION}")
-                execute_process(COMMAND ${GIT_EXECUTABLE} checkout ${VERSION}
-                                WORKING_DIRECTORY ${ABSOLUTE_PATH}
+
+#                execute_process(COMMAND ${GIT_EXECUTABLE} checkout ${VERSION}
+#                                WORKING_DIRECTORY ${ABSOLUTE_PATH}
+#                                RESULT_VARIABLE GIT_SUBMOD_CHECKOUT_RESULT
+#                                )
+                #-q  OUTPUT_QUIET
+                execute_process(COMMAND ${GIT_EXECUTABLE} -C "${ABSOLUTE_PATH}" checkout ${VERSION}
                                 RESULT_VARIABLE GIT_SUBMOD_CHECKOUT_RESULT
                                 )
-                #-q  OUTPUT_QUIET
 
                 if (NOT GIT_SUBMOD_CHECKOUT_RESULT EQUAL "0")
                     message(FATAL_ERROR "git checkout ${VERSION} in ${ABSOLUTE_PATH}
