@@ -54,7 +54,8 @@ macro(initGitSubmodule PATH VERSION)
 #                                RESULT_VARIABLE GIT_SUBMOD_CHECKOUT_RESULT
 #                                )
                 #-q  OUTPUT_QUIET
-                execute_process(COMMAND ${GIT_EXECUTABLE} -C "${ABSOLUTE_PATH}" checkout ${VERSION}
+                message(STATUS "${GIT_EXECUTABLE} -C ${ABSOLUTE_PATH} checkout ${VERSION}")
+                execute_process(COMMAND ${GIT_EXECUTABLE} -C ${ABSOLUTE_PATH} checkout ${VERSION}
                                 RESULT_VARIABLE GIT_SUBMOD_CHECKOUT_RESULT
                                 )
 
