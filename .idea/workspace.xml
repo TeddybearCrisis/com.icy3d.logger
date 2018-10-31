@@ -20,9 +20,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a797d75-78f3-4229-9ac1-95602956386f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="8a797d75-78f3-4229-9ac1-95602956386f" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/cmake-build-release/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -239,6 +237,11 @@
               <item name="com.icy3d.logger" type="b2602c69:ProjectViewProjectNode" />
               <item name="com.icy3d.logger" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="com.icy3d.logger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.icy3d.logger" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -334,7 +337,7 @@
       <workItem from="1540919199093" duration="348000" />
       <workItem from="1540929397856" duration="2370000" />
       <workItem from="1540933710921" duration="1546000" />
-      <workItem from="1540942155336" duration="3438000" />
+      <workItem from="1540942155336" duration="3703000" />
     </task>
     <task id="LOCAL-00001" summary="compiling, but not tested">
       <created>1540901790928</created>
@@ -428,7 +431,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28318000" />
+    <option name="totallyTimeSpent" value="28583000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="40" width="974" height="1047" extended-state="0" />
@@ -450,7 +453,7 @@
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.40778252" side_tool="true" weight="0.50545853" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.329718" />
       <window_info anchor="bottom" id="CMake" order="13" sideWeight="0.5922175" weight="0.50711936" />
-      <window_info anchor="right" id="Jenkins" visible="true" weight="0.40262583" />
+      <window_info anchor="right" id="Jenkins" weight="0.40262583" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
