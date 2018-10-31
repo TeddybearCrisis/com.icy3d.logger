@@ -8,6 +8,7 @@
       <config projectName="com.icy3d.logger" targetName="com.icy3d.logger" />
       <config projectName="com.icy3d.logger" targetName="gmock_main" />
       <config projectName="com.icy3d.logger" targetName="gtest" />
+      <config projectName="com.icy3d.logger" targetName="com.icy3d.logger_shared" />
       <config projectName="com.icy3d.logger" targetName="LogTest" />
       <config projectName="com.icy3d.logger" targetName="gmock" />
       <config projectName="com.icy3d.logger" targetName="gtest_main" />
@@ -20,10 +21,13 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a797d75-78f3-4229-9ac1-95602956386f" name="Default Changelist" comment="">
+    <list default="true" id="8a797d75-78f3-4229-9ac1-95602956386f" name="Default Changelist" comment="added a comment for submodule adding">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake/tools.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake/tools.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/CMakeLists.txt.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/googletest" beforeDir="false" afterPath="$PROJECT_DIR$/test/googletest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/logger_test/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test/logger_test/CMakeLists.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/cmake-build-release/" />
@@ -38,28 +42,28 @@
     <session id="843538045">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="LICENSE" value="3" />
-          <entry key="cmake" value="1" />
+          <entry key="cmake" value="2" />
           <entry key="cpp" value="5" />
           <entry key="gitattributes" value="1" />
           <entry key="gitignore" value="1" />
           <entry key="h" value="13" />
           <entry key="in" value="1" />
           <entry key="md" value="4" />
-          <entry key="txt" value="12" />
+          <entry key="txt" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CMakeLists.txt" value="13" />
+          <entry key="CMakeLists.txt" value="16" />
           <entry key="Markdown" value="4" />
           <entry key="ObjectiveC" value="18" />
           <entry key="PLAIN_TEXT" value="6" />
@@ -67,16 +71,17 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="cmake" value="1056" />
           <entry key="cpp" value="961" />
           <entry key="gitignore" value="38" />
           <entry key="h" value="1077" />
           <entry key="md" value="313" />
-          <entry key="txt" value="1133" />
+          <entry key="txt" value="1591" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CMakeLists.txt" value="1049" />
+          <entry key="CMakeLists.txt" value="2563" />
           <entry key="Doxygen file" value="9" />
           <entry key="Markdown" value="313" />
           <entry key="ObjectiveC" value="2029" />
@@ -135,20 +140,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cmake/tools.cmake">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-102">
-              <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+            <state relative-caret-position="264">
+              <caret line="72" column="9" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -156,8 +161,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/logger_test/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -235,6 +240,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -245,13 +251,17 @@
             <path>
               <item name="com.icy3d.logger" type="b2602c69:ProjectViewProjectNode" />
               <item name="com.icy3d.logger" type="462c0819:PsiDirectoryNode" />
-              <item name="inc" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.icy3d.logger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.icy3d.logger" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -260,7 +270,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -281,18 +291,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.gtest">
-    <configuration name="LogTest" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="com.icy3d.logger" TARGET_NAME="LogTest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="com.icy3d.logger" RUN_TARGET_NAME="LogTest" TEST_MODE="SUITE_TEST">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Build All">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LogTest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="com.icy3d.logger" TARGET_NAME="LogTest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="com.icy3d.logger" RUN_TARGET_NAME="LogTest">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="com.icy3d.logger" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="com.icy3d.logger" TARGET_NAME="com.icy3d.logger" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.icy3d.logger_shared" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="com.icy3d.logger" TARGET_NAME="com.icy3d.logger_shared" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -320,11 +335,12 @@
     <list>
       <item itemvalue="Application.Build All" />
       <item itemvalue="Application.com.icy3d.logger" />
+      <item itemvalue="Application.com.icy3d.logger_shared" />
       <item itemvalue="Application.gmock" />
       <item itemvalue="Application.gmock_main" />
       <item itemvalue="Application.gtest" />
       <item itemvalue="Application.gtest_main" />
-      <item itemvalue="Google Test.LogTest" />
+      <item itemvalue="Application.LogTest" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -343,6 +359,7 @@
       <workItem from="1540929397856" duration="2370000" />
       <workItem from="1540933710921" duration="1546000" />
       <workItem from="1540942155336" duration="5627000" />
+      <workItem from="1540994514816" duration="2025000" />
     </task>
     <task id="LOCAL-00001" summary="compiling, but not tested">
       <created>1540901790928</created>
@@ -443,12 +460,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30507000" />
+    <option name="totallyTimeSpent" value="41052000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1050" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13006397" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26066098" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -460,16 +478,16 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection Results" order="8" weight="0.32969433" />
-      <window_info active="true" anchor="bottom" id="Messages" order="9" sideWeight="0.79317695" visible="true" weight="0.46854663" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.4392114" />
+      <window_info active="true" anchor="bottom" id="Messages" order="9" sideWeight="0.79317695" visible="true" weight="0.44323143" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.28056768" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.40778252" side_tool="true" weight="0.50545853" />
-      <window_info anchor="bottom" id="Version Control" order="12" weight="0.329718" />
-      <window_info anchor="bottom" id="CMake" order="13" sideWeight="0.5922175" weight="0.5140998" />
-      <window_info anchor="right" id="Jenkins" weight="0.40262583" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32969433" />
+      <window_info anchor="bottom" id="CMake" order="13" sideWeight="0.5922175" weight="0.4279476" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Jenkins" order="4" weight="0.40262583" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -609,13 +627,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="28" selection-start-column="28" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitattributes">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -625,27 +636,41 @@
     <entry file="file://$PROJECT_DIR$/test/googletest/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/cmake/tools.cmake">
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/googletest/googlemock/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+        <state relative-caret-position="207">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/logger_test/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake/tools.cmake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="72" column="9" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
         </state>
       </provider>
     </entry>
