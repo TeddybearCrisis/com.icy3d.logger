@@ -14,6 +14,10 @@ macro(forceMsvcStaticBuild)
     endif ()
 endmacro(forceMsvcStaticBuild)
 
+# this macro inits and updates all submodules in the repo at configure time
+# please make sure the submodule was added with:
+# git submodule add --depth 1 [repo-url]'
+# otherwise jenkins will fail
 macro(initGitSubmodule)
     find_package(Git QUIET)
     if (GIT_FOUND AND EXISTS "${PROJECT_SOURCE_DIR}/.git")
