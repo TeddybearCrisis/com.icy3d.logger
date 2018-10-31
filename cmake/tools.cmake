@@ -1,19 +1,3 @@
-
-macro(forceMsvcStaticBuild)
-    # force static runtime libraries for msvc builds
-    if (MSVC)
-        set(variables
-                CMAKE_CXX_FLAGS_DEBUG
-                CMAKE_CXX_FLAGS_RELEASE
-                )
-        foreach (variable ${variables})
-            if (${variable} MATCHES "/MD")
-                string(REGEX REPLACE "/MD" "/MT" ${variable} "${${variable}}")
-            endif ()
-        endforeach ()
-    endif ()
-endmacro(forceMsvcStaticBuild)
-
 # this macro inits and updates all submodules in the repo at configure time
 # please make sure the submodule was added with:
 # git submodule add --depth 1 [repo-url]'
@@ -34,7 +18,22 @@ macro(initGitSubmodule)
         endif ()
     endif ()
 
-#    if(NOT EXISTS "${PROJECT_SOURCE_DIR}/extern/repo/CMakeLists.txt")
-#        message(FATAL_ERROR "The submodules were not downloaded! GIT_SUBMODULE was turned off or failed. Please update submodules and try again.")
-#    endif()
+    #    if(NOT EXISTS "${PROJECT_SOURCE_DIR}/extern/repo/CMakeLists.txt")
+    #        message(FATAL_ERROR "The submodules were not downloaded! GIT_SUBMODULE was turned off or failed. Please update submodules and try again.")
+    #    endif()
 endmacro(initGitSubmodule)
+
+macro(forceMsvcStaticBuild)
+    # force static runtime libraries for msvc builds
+    if (MSVC)
+        set(variables
+                CMAKE_CXX_FLAGS_DEBUG
+                CMAKE_CXX_FLAGS_RELEASE
+                )
+        foreach (variable ${variables})
+            if (${variable} MATCHES "/MD")
+                string(REGEX REPLACE "/MD" "/MT" ${variable} "${${variable}}")
+            endif ()
+        endforeach ()
+    endif ()
+endmacro(forceMsvcStaticBuild)
