@@ -5,13 +5,13 @@
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="com.icy3d.logger" targetName="com.icy3d.logger" />
-      <config projectName="com.icy3d.logger" targetName="gmock_main" />
-      <config projectName="com.icy3d.logger" targetName="gtest" />
+      <config projectName="com.icy3d.logger" targetName="gtest_main" />
       <config projectName="com.icy3d.logger" targetName="com.icy3d.logger_shared" />
+      <config projectName="com.icy3d.logger" targetName="gtest" />
+      <config projectName="com.icy3d.logger" targetName="gmock_main" />
       <config projectName="com.icy3d.logger" targetName="LogTest" />
       <config projectName="com.icy3d.logger" targetName="gmock" />
-      <config projectName="com.icy3d.logger" targetName="gtest_main" />
+      <config projectName="com.icy3d.logger" targetName="com.icy3d.logger" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -21,13 +21,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a797d75-78f3-4229-9ac1-95602956386f" name="Default Changelist" comment="added a comment for submodule adding">
+    <list default="true" id="8a797d75-78f3-4229-9ac1-95602956386f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake/tools.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake/tools.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/CMakeLists.txt.in" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/googletest" beforeDir="false" afterPath="$PROJECT_DIR$/test/googletest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/logger_test/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test/logger_test/CMakeLists.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/cmake-build-release/" />
@@ -37,15 +33,15 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Release" />
   <component name="FUSProjectUsageTrigger">
     <session id="843538045">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.3" value="2" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.3" value="3" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -71,21 +67,21 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cmake" value="1056" />
+          <entry key="cmake" value="1065" />
           <entry key="cpp" value="961" />
           <entry key="gitignore" value="38" />
           <entry key="h" value="1077" />
           <entry key="md" value="313" />
-          <entry key="txt" value="1591" />
+          <entry key="txt" value="1665" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CMakeLists.txt" value="2563" />
+          <entry key="CMakeLists.txt" value="2572" />
           <entry key="Doxygen file" value="9" />
           <entry key="Markdown" value="313" />
           <entry key="ObjectiveC" value="2029" />
-          <entry key="PLAIN_TEXT" value="122" />
+          <entry key="PLAIN_TEXT" value="196" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.cidr.testingFrameworks.usages">
@@ -152,8 +148,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cmake/tools.cmake">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="72" column="9" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
+            <state relative-caret-position="194">
+              <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -240,7 +236,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -262,6 +257,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -270,7 +266,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -359,7 +355,8 @@
       <workItem from="1540929397856" duration="2370000" />
       <workItem from="1540933710921" duration="1546000" />
       <workItem from="1540942155336" duration="5627000" />
-      <workItem from="1540994514816" duration="2025000" />
+      <workItem from="1540994514816" duration="2255000" />
+      <workItem from="1540996782765" duration="185000" />
     </task>
     <task id="LOCAL-00001" summary="compiling, but not tested">
       <created>1540901790928</created>
@@ -424,7 +421,14 @@
       <option name="project" value="LOCAL" />
       <updated>1540948002054</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="is now properly building static and shared libs on windows">
+      <created>1540996690596</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1540996690596</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -460,13 +464,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41052000" />
+    <option name="totallyTimeSpent" value="41467000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26066098" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26066098" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -478,7 +482,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection Results" order="8" weight="0.32969433" />
-      <window_info active="true" anchor="bottom" id="Messages" order="9" sideWeight="0.79317695" visible="true" weight="0.44323143" />
+      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.79317695" visible="true" weight="0.44323143" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.28056768" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.40778252" side_tool="true" weight="0.50545853" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32969433" />
@@ -520,7 +524,8 @@
     <MESSAGE value="added script to automatically update git submodules" />
     <MESSAGE value="changed script to automatically update git submodules" />
     <MESSAGE value="added a comment for submodule adding" />
-    <option name="LAST_COMMIT_MESSAGE" value="added a comment for submodule adding" />
+    <MESSAGE value="is now properly building static and shared libs on windows" />
+    <option name="LAST_COMMIT_MESSAGE" value="is now properly building static and shared libs on windows" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/CMakeLists.txt">
@@ -610,13 +615,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/test/googletest-src/googletest/include/gtest/internal/gtest-internal.h" />
-    <entry file="file://$PROJECT_DIR$/test/CMakeLists.txt.in">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/test/CMakeLists.txt.in" />
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/test/googletest-src/googletest/include/gtest/internal/gtest-port.h" />
     <entry file="file://$PROJECT_DIR$/test/googletest/googletest/CMakeLists.txt" />
     <entry file="file://$PROJECT_DIR$/test/logger_test/DummyTest.cpp" />
@@ -653,13 +652,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/logger_test/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -667,10 +659,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/logger_test/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cmake/tools.cmake">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="72" column="9" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
+        <state relative-caret-position="194">
+          <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
         </state>
       </provider>
     </entry>
