@@ -6,12 +6,7 @@
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
       <config projectName="com.icy3d.logger" targetName="com.icy3d.logger" />
-      <config projectName="com.icy3d.logger" targetName="gmock_main" />
-      <config projectName="com.icy3d.logger" targetName="gtest" />
-      <config projectName="com.icy3d.logger" targetName="com.icy3d.logger_shared" />
-      <config projectName="com.icy3d.logger" targetName="LogTest" />
-      <config projectName="com.icy3d.logger" targetName="gmock" />
-      <config projectName="com.icy3d.logger" targetName="gtest_main" />
+      <config projectName="com.icy3d.logger" targetName="objLib" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -24,6 +19,10 @@
     <list default="true" id="8a797d75-78f3-4229-9ac1-95602956386f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/cppfs/cppfs_api.h" beforeDir="false" afterPath="$PROJECT_DIR$/inc/cppfs/cppfs_api.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/cppfs/cppfs.lib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/cppfs/cppfsd.lib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Log.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Log.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/cmake-build-release/" />
@@ -38,30 +37,30 @@
     <session id="843538045">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.0" value="2" />
+          <entry key="project.closed" value="12" />
+          <entry key="project.open.time.0" value="10" />
           <entry key="project.open.time.3" value="3" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="LICENSE" value="3" />
           <entry key="cmake" value="2" />
-          <entry key="cpp" value="5" />
+          <entry key="cpp" value="7" />
           <entry key="gitattributes" value="1" />
           <entry key="gitignore" value="1" />
-          <entry key="h" value="13" />
+          <entry key="h" value="18" />
           <entry key="in" value="1" />
           <entry key="md" value="4" />
-          <entry key="txt" value="14" />
+          <entry key="txt" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CMakeLists.txt" value="16" />
+          <entry key="CMakeLists.txt" value="19" />
           <entry key="Markdown" value="4" />
-          <entry key="ObjectiveC" value="18" />
+          <entry key="ObjectiveC" value="25" />
           <entry key="PLAIN_TEXT" value="6" />
         </counts>
       </usages-collector>
@@ -70,17 +69,17 @@
           <entry key="cmake" value="1308" />
           <entry key="cpp" value="961" />
           <entry key="gitignore" value="38" />
-          <entry key="h" value="1077" />
+          <entry key="h" value="1091" />
           <entry key="md" value="313" />
-          <entry key="txt" value="1876" />
+          <entry key="txt" value="2062" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CMakeLists.txt" value="2816" />
+          <entry key="CMakeLists.txt" value="3002" />
           <entry key="Doxygen file" value="9" />
           <entry key="Markdown" value="313" />
-          <entry key="ObjectiveC" value="2029" />
+          <entry key="ObjectiveC" value="2043" />
           <entry key="PLAIN_TEXT" value="406" />
         </counts>
       </usages-collector>
@@ -139,8 +138,55 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="650">
-              <caret line="40" column="67" selection-start-line="40" selection-start-column="67" selection-end-line="40" selection-end-column="67" />
+            <state relative-caret-position="210">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inc/cppfs/ssh/SshFileHandle.h">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Log.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Log.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+              <folding>
+                <element signature="e#957#983#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/logger_test/LogTest.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+              <folding>
+                <element signature="e#43#59#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -148,8 +194,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cmake/tools.cmake">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+            <state relative-caret-position="1275">
+              <caret line="75" column="6" selection-start-line="75" selection-start-column="6" selection-end-line="75" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -157,8 +203,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/logger_test/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state>
+              <caret selection-end-line="22" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -175,6 +221,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>logs</find>
+      <find>FileHandle</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -196,7 +243,6 @@
         <option value="$PROJECT_DIR$/src/Formatter.h" />
         <option value="$PROJECT_DIR$/src/Log.cpp" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/Log.h" />
         <option value="$PROJECT_DIR$/test/LogTest.cpp" />
         <option value="$PROJECT_DIR$/test/googletest/CMakeLists.txt.in" />
         <option value="$PROJECT_DIR$/test/googletest/CMakeLists.txt" />
@@ -207,6 +253,7 @@
         <option value="$PROJECT_DIR$/.gitmodules" />
         <option value="$PROJECT_DIR$/test/logger_test/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/cmake/tools.cmake" />
+        <option value="$PROJECT_DIR$/src/Log.h" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
       </list>
     </option>
@@ -225,10 +272,10 @@
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="483" />
-    <option name="y" value="28" />
-    <option name="width" value="800" />
-    <option name="height" value="848" />
+    <option name="x" value="1911" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1098" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -246,12 +293,30 @@
             <path>
               <item name="com.icy3d.logger" type="b2602c69:ProjectViewProjectNode" />
               <item name="com.icy3d.logger" type="462c0819:PsiDirectoryNode" />
+              <item name="install" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.icy3d.logger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.icy3d.logger" type="462c0819:PsiDirectoryNode" />
+              <item name="install" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.icy3d.logger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.icy3d.logger" type="462c0819:PsiDirectoryNode" />
+              <item name="install" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.icy3d.logger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.icy3d.logger" type="462c0819:PsiDirectoryNode" />
+              <item name="install" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="com.icy3d.logger" type="b2602c69:ProjectViewProjectNode" />
               <item name="com.icy3d.logger" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -261,8 +326,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="filehandle&#9;FILE&#9;file://C:/Projects/VisualStudio/com.icy3d.logger/inc/cppfs/FileHandle.h" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../cmake/cppfs" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -270,8 +336,14 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Projects\VisualStudio\com.icy3d.logger\lib" />
       <recent name="C:\Projects\VisualStudio\com.icy3d.logger\test" />
       <recent name="C:\Projects\VisualStudio\com.icy3d.logger\test\logger_test" />
+      <recent name="C:\Projects\VisualStudio\com.icy3d.logger\lib\cppfs" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projects\VisualStudio\com.icy3d.logger\lib" />
+      <recent name="C:\Projects\VisualStudio\com.icy3d.logger\inc" />
       <recent name="C:\Projects\VisualStudio\com.icy3d.logger\lib\cppfs" />
     </key>
   </component>
@@ -293,37 +365,12 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogTest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="com.icy3d.logger" TARGET_NAME="LogTest" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="com.icy3d.logger" RUN_TARGET_NAME="LogTest">
+    <configuration name="com.icy3d.logger" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="com.icy3d.logger" TARGET_NAME="com.icy3d.logger" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.icy3d.logger" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="com.icy3d.logger" TARGET_NAME="com.icy3d.logger" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.icy3d.logger_shared" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="com.icy3d.logger" TARGET_NAME="com.icy3d.logger_shared" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="gmock" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="com.icy3d.logger" TARGET_NAME="gmock" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="gmock_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="com.icy3d.logger" TARGET_NAME="gmock_main" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="gtest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="com.icy3d.logger" TARGET_NAME="gtest" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="gtest_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="com.icy3d.logger" TARGET_NAME="gtest_main" CONFIG_NAME="Release">
+    <configuration name="objLib" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="com.icy3d.logger" TARGET_NAME="objLib" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -331,12 +378,7 @@
     <list>
       <item itemvalue="Application.Build All" />
       <item itemvalue="Application.com.icy3d.logger" />
-      <item itemvalue="Application.com.icy3d.logger_shared" />
-      <item itemvalue="Application.gmock" />
-      <item itemvalue="Application.gmock_main" />
-      <item itemvalue="Application.gtest" />
-      <item itemvalue="Application.gtest_main" />
-      <item itemvalue="Application.LogTest" />
+      <item itemvalue="Application.objLib" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -356,7 +398,15 @@
       <workItem from="1540933710921" duration="1546000" />
       <workItem from="1540942155336" duration="5627000" />
       <workItem from="1540994514816" duration="2255000" />
-      <workItem from="1540996782765" duration="2720000" />
+      <workItem from="1540996782765" duration="3455000" />
+      <workItem from="1541066817911" duration="2100000" />
+      <workItem from="1541193235787" duration="368000" />
+      <workItem from="1541193610394" duration="10000" />
+      <workItem from="1541194414643" duration="1878000" />
+      <workItem from="1541197924103" duration="2154000" />
+      <workItem from="1541202304982" duration="3351000" />
+      <workItem from="1541236227775" duration="1053000" />
+      <workItem from="1541429820614" duration="1166000" />
     </task>
     <task id="LOCAL-00001" summary="compiling, but not tested">
       <created>1540901790928</created>
@@ -470,7 +520,14 @@
       <option name="project" value="LOCAL" />
       <updated>1540999520997</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="trying different git checkout command from cmake">
+      <created>1540999606813</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1540999606813</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -506,13 +563,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44002000" />
+    <option name="totallyTimeSpent" value="56817000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1050" extended-state="6" />
-    <editor active="true" />
+    <frame x="1913" y="-7" width="1550" height="878" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13059701" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22818792" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -524,16 +580,16 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection Results" order="8" weight="0.32969433" />
-      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.79317695" visible="true" weight="0.44323143" />
+      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.65991473" visible="true" weight="0.37583894" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.28056768" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.40778252" side_tool="true" weight="0.50545853" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.3400853" side_tool="true" weight="0.44323143" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32969433" />
-      <window_info active="true" anchor="bottom" id="CMake" order="13" sideWeight="0.5922175" visible="true" weight="0.22598253" />
+      <window_info anchor="bottom" id="CMake" order="13" sideWeight="0.5922175" weight="0.33951965" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="Jenkins" order="4" visible="true" weight="0.20202559" />
+      <window_info anchor="right" id="Jenkins" order="4" weight="0.25973153" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -595,13 +651,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/inc/cppfs/FileHandle.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="571" selection-start-line="571" selection-end-line="571" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/inc/spdlog/common.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
@@ -645,39 +694,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Log.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Log.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="39" column="70" selection-start-line="39" selection-start-column="70" selection-end-line="39" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/test/googletest-src/googletest/include/gtest/internal/gtest-internal.h" />
     <entry file="file://$PROJECT_DIR$/test/CMakeLists.txt.in" />
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/test/googletest-src/googletest/include/gtest/internal/gtest-port.h" />
     <entry file="file://$PROJECT_DIR$/test/googletest/googletest/CMakeLists.txt" />
     <entry file="file://$PROJECT_DIR$/test/logger_test/DummyTest.cpp" />
-    <entry file="file://$PROJECT_DIR$/test/logger_test/LogTest.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitattributes">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitmodules">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/googletest/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt">
@@ -690,6 +715,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/inc/cppfs/FileHandle.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="53" column="17" lean-forward="true" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/googletest/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/cppfs/ssh/SshFileHandle.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Log.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Log.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#957#983#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -697,24 +759,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/logger_test/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/test/logger_test/LogTest.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="391">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding>
+            <element signature="e#43#59#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cmake/tools.cmake">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+        <state relative-caret-position="1275">
+          <caret line="75" column="6" selection-start-line="75" selection-start-column="6" selection-end-line="75" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/test/logger_test/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="40" column="67" selection-start-line="40" selection-start-column="67" selection-end-line="40" selection-end-column="67" />
+        <state>
+          <caret selection-end-line="22" selection-end-column="12" />
         </state>
       </provider>
     </entry>
